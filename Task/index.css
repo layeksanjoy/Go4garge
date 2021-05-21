@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+body, html{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    position: relative;
+}
+.Tiffina-icon{
+    position: fixed;
+    height:100px;
+    width: 80px;
+    right:10px;
+    top:10px;
+
+}
+.Tiffina-icon img{
+    height:100%;
+    width: 100%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.main-body{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.phoneLogin{
+    background-image: url("./public/images/Bg.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* 100% Full-height */
+    width: 50%; /* 0 width - change this with JavaScript */
+    position: fixed; /*Stay in place*/
+    z-index: 100; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: -50%;
+    /* position: relative; */
+    /* background-color: #111; Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+.phoneLogin-input{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px;
+}
+.phoneLogin-text-large{
+    margin-bottom: 0;
+}
+.phoneLogin-text-small{
+    margin:0;
+    font-size: 12px;
+}
+.phoneLogin-input-field{
+    width: 100%;
+    height: 20px;
+}
+.phoneLogin-text-small-otp{
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.phoneLogin-Proceed{
+    background-color: #f79837;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+}
+.orange{
+    color: #f79837;
+}
+.orange:hover{
+    cursor: pointer;
+}
+.phoneLogin-Proceed:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+.login{
+    background-image: url("./public/images/Bg.png");
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* 100% Full-height */
+    width: 50%; /* 0 width - change this with JavaScript */
+    position: fixed; /*Stay in place*/
+    z-index: 50; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: -50%;
+    /* position: relative; */
+    /* background-color: #111; Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    gap: 36px;
+}
+.login-img{
+    width: 30%;
+    margin: 26px auto;
+}
+.login-img img{
+    width: 100%;
+}
+.login-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-evenly;
+}
+.login-button-div{
+    display: flex;
+    width: 260px;
+    height: 40px;
+    justify-content: space-evenly;
+    padding: 5px;
+    background: white;
+    border-radius: 5px;
+    border:2px solid #f79837;
+}
+.login-button-div:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+.login-button-image-div{
+    display: flex;
+    align-items: center;
+}
+.login-button-image{
+    height:20px;
+    width:20px;
+}
+.login-text{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    padding-right: 40px;
+    padding-left: 10px;
+    font-style: normal;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    font-weight: 500;
+}
+
+.getStarted{
+    background-image: url("./public/images/Bg.png");
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+
+.slice{
+    height: 108px;
+    background-image: url("./public/images/Bg2.png");
+    background-size: cover;
+    /* background-position: top; */
+}
+.getStarted-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 38px;
+
+}
+.getStarted-added-bg{
+    background-image: url("./public/images/Bg2.png");
+}
+.getStarted-buttons{
+    display:flex;
+    height:50vh;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.getStarted-button{
+    background-color: #f79837; /* Green */
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    width: 275px;
+    height: 40px;
+}
+.getStarted-button-1{
+    display: flex;
+    width: 260px;
+    height: 20px;
+    justify-content: space-evenly;
+    padding: 5px;
+    background: white;
+    border-radius: 5px;
+    border:2px solid #f79837;
+}
+.getStarted-button-text-big{
+    font-size: larger;
+}
+.getStarted-button-text-small{
+    font-size: 12px;
+    color: black;
+}
+
+.getStarted-member-ask{
+    font-size: 12px;
+}
+
+.getStarted-login{
+    color:#f79837;
+    font-weight: bolder;
+}
+.getStarted-button:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+.getStarted-button-1:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+.main-body-img{
+    width: 50%;
+    height:100vh;
+    overflow: hidden;
+}
+.main-body-img > img{
+    width: 100%;
+    height:auto;
+
+}
+
+.close-div{
+    display: flex;
+    justify-content: flex-end;
+}
+.close-div:hover{
+    cursor: pointer;
+}
+.close{
+    position: absolute;
+    height: 25px;
+}
+#grey-background{
+    display: none;
+    width: 100%;
+    height: 100vh;
+    z-index:0;
+    position:absolute;
+    background-color: #5954549e;
+}
+.terms_and_policy{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+.terms_and_policy_last{
+    display: flex;
+}
+.terms_and_policy_last p{
+    margin:0;
+    text-decoration: underline;
+}
+.terms_and_policy_last p:hover{
+    cursor: pointer;
+}
